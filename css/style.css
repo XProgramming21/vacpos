@@ -965,7 +965,7 @@ html{
   display: flex;
   align-items: center;
   position: relative;
-  left: 8rem;
+  left: 7rem;
 }
 
     
@@ -1008,7 +1008,21 @@ html{
   display: flex;
   align-items: center;
   position: relative;
-  left: 10rem;
+  left: 9rem;
+}
+
+@media screen and (max-width: 250px) {
+
+  #download
+{
+display: flex;
+align-items: center;
+position: relative;
+left: 12rem;
+}
+
+  
+  
 }
 
     
