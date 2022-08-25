@@ -943,6 +943,21 @@ html{
     }
     
   }
+
+  @media screen and (max-width: 500px) {
+
+    #download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 6rem;
+}
+
+    
+    
+  }
+
   @media screen and (max-width: 400px) {
 
     #download
@@ -950,7 +965,7 @@ html{
   display: flex;
   align-items: center;
   position: relative;
-  left: -5rem;
+  left: 8rem;
 }
 
     
@@ -993,11 +1008,12 @@ html{
   display: flex;
   align-items: center;
   position: relative;
-  left: -2rem;
+  left: 10rem;
 }
 
     
     
   }
+
   
     
