@@ -46,6 +46,13 @@ html{
 
 /*Font sizes For Small Screen 968px */
 @media screen and (max-width: 990px) {
+  #download
+  {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 3rem;
+  }
 :root {
   --big-font: 3.5rem;
   --h1-font: 2.4rem;
@@ -667,11 +674,19 @@ html{
   padding: 1rem;
 }
 
+#download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 30rem;
+}
+
 .download-conteneur
 {
   position: relative;
-  left: 100%;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   align-content: center;
   color: white;
@@ -777,13 +792,16 @@ html{
   
   /* Responive media */
   @media screen and (max-width: 1150px) {
-    .download-conteneur
-    {
-      
-      left: 30rem;
-      
+
+    #download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 3rem;
+}
+
     
-    }
     .swiper-button-prev {
       left: 10rem;
   }
@@ -793,12 +811,12 @@ html{
   }
   
   @media screen and (max-width: 1000px) {
-    .download-conteneur
+    #download
     {
-      
-      left: 27rem;
-      
-    
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 25rem;
     }
     .swiper-button-prev {
       left: 3rem;
@@ -827,13 +845,15 @@ html{
   
   @media screen and (max-width: 768px) {
 
-    .download-conteneur
+    #download
 {
-  
-  left: 8rem;
- 
-
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -2rem;
 }
+
+
     .section.review{
       padding: 7rem 1rem 3rem;
     }
@@ -880,6 +900,14 @@ html{
   }
   
   @media screen and (max-width: 600px){
+    #download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -7rem;
+}
+
     .container{
       padding: 0.5rem;
     }
@@ -916,6 +944,16 @@ html{
     
   }
   @media screen and (max-width: 400px) {
+
+    #download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -5rem;
+}
+
+    
     .homeTitle{
       font-size:3rem;
     }
