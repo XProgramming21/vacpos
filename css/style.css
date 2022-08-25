@@ -986,5 +986,18 @@ html{
   }
   }
   
+  @media screen and (max-width: 300px) {
+
+    #download
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -2rem;
+}
+
+    
+    
+  }
   
     
