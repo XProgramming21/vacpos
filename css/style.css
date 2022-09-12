@@ -663,16 +663,6 @@ html{
 .newsletter .media-icons{
   display: flex;
 }
-.download{
-  width: fit-content;
-  
-
-}
-.mot
-{
-  color: white;
-  padding: 1rem;
-}
 
 
 
@@ -775,14 +765,7 @@ html{
   /* Responive media */
   @media screen and (max-width: 1150px) {
 
-    #download
-{
-  display: flex;
-  align-items: center;
-  position: relative;
-  left: 3rem;
-  margin-left: 20rem;
-}
+
 
     
     .swiper-button-prev {
@@ -870,16 +853,6 @@ html{
   }
   
   @media screen and (max-width: 600px){
-<<<<<<< Updated upstream
- 
-
-=======
-    .download-conteneur
-{ 
-  left: 5rem;  
-
-}
->>>>>>> Stashed changes
     .container{
       padding: 0.5rem;
     }
@@ -918,13 +891,7 @@ html{
 
   @media screen and (max-width: 500px) {
 
-    #download
-{
-  display: flex;
-  align-items: center;
-  position: relative;
-  left: 6rem;
-}
+
 
     
     
@@ -932,15 +899,7 @@ html{
 
   @media screen and (max-width: 400px) {
 
-<<<<<<< Updated upstream
-    
-=======
-.download-conteneur
-{ 
-  left: 3rem;  
 
-}
->>>>>>> Stashed changes
     .homeTitle{
       font-size:3rem;
     }
@@ -971,7 +930,7 @@ html{
       padding: 1.4rem 2rem;
   
   }
-  }
+  
   
   @media screen and (max-width: 300px) {
 
@@ -996,6 +955,7 @@ html{
     
     
   }
+}
 
   
     
